@@ -21,7 +21,7 @@ An interactive machine learning web application built with **Streamlit** and **S
 
 ```text
 customer-segmentation-app/
-├── app.py                  # Main Streamlit application
+├── customer-segmentation-app.py   # Main Streamlit application
 ├── customer_churn.csv      # Dataset (or user-uploaded CSV)
 ├── requirements.txt        # Python library dependencies
 ├── .gitignore              # Files/folders excluded from git
