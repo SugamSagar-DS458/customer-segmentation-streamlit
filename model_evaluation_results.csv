@@ -1,0 +1,7 @@
+Model,Segment,Best_Params,Accuracy,Precision_Class_1,Recall_Class_1,F1_Score_Class_1,Precision_Class_0,Recall_Class_0,F1_Score_Class_0,Support_Class_0,Support_Class_1,Total_Support
+Baseline Logistic Regression,Segment 0,N/A,0.9429,1.0,0.3333,0.5,0.94,1.0,0.97,32,3,35
+Baseline Logistic Regression,Segment 1,N/A,0.9733,0.875,0.875,0.875,0.99,0.99,0.99,67,8,75
+Baseline Logistic Regression,Segment 2,N/A,0.9286,0.8,0.6667,0.7273,0.95,0.97,0.96,36,6,42
+Tuned Logistic Regression,Segment 0,"{'C': 10, 'penalty': 'l2'}",0.9714,1.0,0.6667,0.8,0.97,1.0,0.98,32,3,35
+Tuned Logistic Regression,Segment 1,"{'C': 1, 'penalty': 'l1'}",0.9733,0.875,0.875,0.875,0.99,0.99,0.99,67,8,75
+Tuned Logistic Regression,Segment 2,"{'C': 10, 'penalty': 'l1'}",0.881,0.6,0.5,0.5455,0.92,0.94,0.93,36,6,42
